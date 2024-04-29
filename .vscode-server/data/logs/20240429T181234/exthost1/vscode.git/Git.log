@@ -1,0 +1,8 @@
+2024-04-29 18:12:37.652 [info] Log level: Info
+2024-04-29 18:12:37.652 [info] Validating found git in: "git"
+2024-04-29 18:12:37.652 [info] Using git "2.34.1" from "git"
+2024-04-29 18:13:41.086 [info] > git clone jeremylwang.com /home/jeremy/jeremylwang.com --progress [9ms]
+2024-04-29 18:13:41.086 [info] fatal: repository 'jeremylwang.com' does not exist
+2024-04-29 18:14:08.541 [info] > git clone jeremylwang.com /home/jeremy/public_html/jeremylwang.com --progress [3ms]
+2024-04-29 18:14:08.542 [info] fatal: repository 'jeremylwang.com' does not exist
+2024-04-29 18:19:45.405 [info] > git rev-parse --show-toplevel [5ms]

@@ -1,0 +1,12 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "jupyter.askForKernelRestart": false,
+    "python.defaultInterpreterPath": "C:\\Users\\jeremy\\anaconda3\\python.exe",
+    "files.autoSave": "afterDelay",
+    "remote.SSH.remotePlatform": {
+        "jeremylwang.com": "linux"
+    }
+}

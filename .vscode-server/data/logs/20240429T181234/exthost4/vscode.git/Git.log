@@ -1,0 +1,97 @@
+2024-04-29 18:39:06.506 [info] Log level: Info
+2024-04-29 18:39:06.506 [info] Validating found git in: "git"
+2024-04-29 18:39:06.506 [info] Using git "2.34.1" from "git"
+2024-04-29 18:39:06.506 [info] > git rev-parse --show-toplevel [5ms]
+2024-04-29 18:39:06.506 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2024-04-29 18:39:06.506 [info] Open repository: /home/jeremy
+2024-04-29 18:39:06.506 [info] > git config --get commit.template [51ms]
+2024-04-29 18:39:06.506 [info] > git rev-parse --show-toplevel [45ms]
+2024-04-29 18:39:06.506 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [17ms]
+2024-04-29 18:39:06.506 [warning] No such branch: main.
+2024-04-29 18:39:06.507 [info] > git rev-parse --show-toplevel [15ms]
+2024-04-29 18:39:06.523 [info] > git rev-parse --show-toplevel [2ms]
+2024-04-29 18:39:06.537 [info] > git status -z -uall [33ms]
+2024-04-29 18:39:06.614 [info] > git rev-parse --show-toplevel [80ms]
+2024-04-29 18:39:06.630 [info] > git config --get commit.template [18ms]
+2024-04-29 18:39:06.643 [info] > git rev-parse --git-dir --git-common-dir [13ms]
+2024-04-29 18:39:06.650 [info] Open repository: /home/jeremy/public_html
+2024-04-29 18:39:06.674 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [33ms]
+2024-04-29 18:39:06.674 [warning] No such branch: main.
+2024-04-29 18:39:07.005 [info] > git status -z -uall [314ms]
+2024-04-29 18:39:07.025 [info] > git config --get commit.template [352ms]
+2024-04-29 18:39:07.058 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-04-29 18:39:07.059 [warning] No such branch: master.
+2024-04-29 18:39:07.080 [info] > git status -z -uall [3ms]
+2024-04-29 18:39:07.380 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [255ms]
+2024-04-29 18:39:07.381 [warning] No such branch: master.
+2024-04-29 18:39:07.382 [info] > git config --get commit.template [277ms]
+2024-04-29 18:39:07.405 [info] > git status -z -uall [3ms]
+2024-04-29 18:39:07.546 [info] > git check-ignore -v -z --stdin [24ms]
+2024-04-29 18:39:07.548 [info] > git check-ignore -v -z --stdin [4ms]
+2024-04-29 18:39:23.292 [info] > git check-ignore -v -z --stdin [3ms]
+2024-04-29 18:39:24.383 [info] > git check-ignore -v -z --stdin [3ms]
+2024-04-29 18:39:25.281 [info] > git check-ignore -v -z --stdin [2ms]
+2024-04-29 18:39:29.711 [info] > git check-ignore -v -z --stdin [2ms]
+2024-04-29 18:39:30.448 [info] > git check-ignore -v -z --stdin [2ms]
+2024-04-29 18:39:33.576 [info] > git check-ignore -v -z --stdin [2ms]
+2024-04-29 18:39:36.569 [info] > git check-ignore -v -z --stdin [3ms]
+2024-04-29 18:39:36.829 [info] > git config --get commit.template [3ms]
+2024-04-29 18:39:36.857 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-04-29 18:39:36.858 [warning] No such branch: main.
+2024-04-29 18:39:36.902 [info] > git status -z -uall [22ms]
+2024-04-29 18:39:37.382 [info] > git check-ignore -v -z --stdin [2ms]
+2024-04-29 18:39:38.751 [info] > git check-ignore -v -z --stdin [3ms]
+2024-04-29 18:39:40.535 [info] > git check-ignore -v -z --stdin [3ms]
+2024-04-29 18:39:44.483 [info] > git check-ignore -v -z --stdin [2ms]
+2024-04-29 18:39:44.824 [info] > git config --get commit.template [2ms]
+2024-04-29 18:39:44.847 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-04-29 18:39:44.848 [warning] No such branch: main.
+2024-04-29 18:39:44.899 [info] > git status -z -uall [33ms]
+2024-04-29 18:39:53.739 [info] > git add -A -- . [868ms]
+2024-04-29 18:39:53.739 [info] error: 'public_html/' does not have a commit checked out
+fatal: adding files failed
+2024-04-29 18:39:53.788 [info] > git config --get commit.template [25ms]
+2024-04-29 18:39:53.788 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-04-29 18:39:53.789 [warning] No such branch: main.
+2024-04-29 18:39:53.834 [info] > git status -z -uall [24ms]
+2024-04-29 18:39:53.919 [info] > git config --get commit.template [2ms]
+2024-04-29 18:39:53.942 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-04-29 18:39:53.942 [warning] No such branch: main.
+2024-04-29 18:39:54.140 [info] > git status -z -uall [174ms]
+2024-04-29 18:40:09.420 [warning] ENOENT: no such file or directory, open '/home/jeremy/public_html/.git/HEAD'
+2024-04-29 18:40:09.455 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/jeremy/public_html/.git/config'
+2024-04-29 18:40:09.489 [warning] ENOENT: no such file or directory, open '/home/jeremy/public_html/.git/HEAD'
+2024-04-29 18:40:09.520 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/jeremy/public_html/.git/config'
+2024-04-29 18:40:09.853 [info] > git config --get commit.template [20ms]
+2024-04-29 18:40:09.854 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-04-29 18:40:09.855 [warning] No such branch: main.
+2024-04-29 18:40:09.897 [info] > git status -z -uall [21ms]
+2024-04-29 18:40:10.460 [info] > git check-ignore -v -z --stdin [2ms]
+2024-04-29 18:40:13.276 [info] > git add -A -- . [841ms]
+2024-04-29 18:40:13.419 [info] > git -c user.useConfigOnly=true commit --quiet [116ms]
+2024-04-29 18:40:13.419 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-04-29 18:40:13.440 [info] > git config --get-all user.name [2ms]
+2024-04-29 18:40:13.480 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-04-29 18:40:13.480 [warning] No such branch: main.
+2024-04-29 18:40:13.480 [info] > git config --get commit.template [24ms]
+2024-04-29 18:40:13.526 [info] > git status -z -uall [27ms]
+2024-04-29 18:40:18.744 [info] > git config --get commit.template [2ms]
+2024-04-29 18:40:18.768 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-04-29 18:40:18.768 [warning] No such branch: main.
+2024-04-29 18:40:18.816 [info] > git status -z -uall [27ms]
+2024-04-29 18:40:23.882 [info] > git config --get commit.template [18ms]
+2024-04-29 18:40:23.883 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-04-29 18:40:23.883 [warning] No such branch: main.
+2024-04-29 18:40:23.926 [info] > git status -z -uall [30ms]
