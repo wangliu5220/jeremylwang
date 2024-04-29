@@ -20,3 +20,4 @@
 2024-04-29 18:40:13.550 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1181
 2024-04-29 18:40:18.839 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1181
 2024-04-29 18:40:23.952 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1181
+2024-04-29 18:40:42.927 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
